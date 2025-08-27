@@ -16,6 +16,9 @@ Docker's official Model Context Protocol (MCP) gateway implementation, providing
 - Created wrapper scripts for easy usage
 - Configured Claude Code integration in `~/.config/claude/mcp-settings.json`
 - Followed naming convention: `mcp-{service}` for project directory
+- **Repository Fix**: Recreated as clean repository without upstream history to avoid GitHub push protection issues
+  - Removed problematic test files containing example secrets
+  - Fresh git repository with only deployment scripts and documentation
 
 ## Architecture
 
